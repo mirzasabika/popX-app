@@ -6,7 +6,7 @@ import Profile from "./pages/Profile";
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex items-center justify-center sm:bg-gray-100 bg-white">
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />

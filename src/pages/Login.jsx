@@ -20,7 +20,14 @@ export default function Login() {
         </p>
 
         {/* Form */}
-        <form className="mt-9 space-y-5">
+        <form className="mt-9 space-y-5"
+         onSubmit={(e) => {
+         e.preventDefault(); // stop page reload
+         if (isFormFilled) {
+         navigate("/profile");
+         }
+         }}
+        >
           {/* Email */}
           <div className="relative">
             <label
@@ -62,7 +69,6 @@ export default function Login() {
           {/* Button */}
           <button
             type="submit"
-            onClick={() => navigate("/profile")}
             disabled={!isFormFilled}
             className={`w-full h-11 rounded-md font-semibold text-white transition-colors ${
               isFormFilled
