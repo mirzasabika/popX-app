@@ -5,7 +5,7 @@ export default function Landing() {
     <div className="flex flex-col items-center bg-white p-6 rounded-xl shadow-md w-[90%] max-w-sm text-center mt-auto mb-10 bg-white p-6 rounded-xl shadow-md w-[90%] max-w-sm text-center mt-auto mb-10 min-h-screen justify-between mt-5">
       {/* Top Image */}
       <img
-        src="src/assets/welcomeImg.png" // <-- replace with your image path
+        src="https://static.vecteezy.com/system/resources/thumbnails/008/517/547/small_2x/welcome-to-team-two-men-shaking-hands-and-looking-at-each-other-with-smile-while-their-coworkers-sitting-at-the-business-meeting-vector.jpg" 
         alt="Top Illustration"
         className="w-90 h-90 pt-14 "
       />
