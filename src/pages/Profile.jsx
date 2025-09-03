@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function AccountSettings() {
+export default function Profile() {
   return (
     <div className="flex min-h-screen items-start bg-gray-50 my-5">
       <div className="w-full max-w-md bg-white shadow-sm rounded-md overflow-hidden">
